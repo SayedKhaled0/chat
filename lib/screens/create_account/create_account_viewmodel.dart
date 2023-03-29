@@ -13,16 +13,21 @@ class CreateAccountViewModel extends BaseViewModel <CreateAccountNavigator>{
     try {
       print("try1");
       navigator!.showLoading();
+      print("try1");
 
 
-      final credential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
+      final credential = await FirebaseAuth.instance
+          .createUserWithEmailAndPassword(
         email: email,
-        password:password,
+        password: password,
       );
       print("try2");
-      message="Account Created";
-      Myuser myuser=Myuser(id: credential.user?.uid??"", email: email, firName: firstName, userName: userName);
-     await DatabaseUtils.AddUserToFirestore(myuser).then((value){
+      message = "Account Created";
+      Myuser myuser = Myuser(id: credential.user?.uid ?? "",
+          email: email,
+          firName: firstName,
+          userName: userName);
+      await DatabaseUtils.AddUserToFirestore(myuser).then((value) {
        print("sateeeeeellll");
 
         navigator!.hideLoading();
