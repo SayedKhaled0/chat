@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute:CreateAccount.routeName ,
+      initialRoute:LoginScreen.routeName ,
       routes: {
         CreateAccount.routeName:(_)=>CreateAccount(),
         LoginScreen.routeName:(_)=>LoginScreen(),

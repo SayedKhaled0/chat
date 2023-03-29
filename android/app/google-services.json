@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094333193374",
+    "project_id": "roomapp-540ea",
+    "storage_bucket": "roomapp-540ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094333193374:android:d1a69e33c6d454e60d2f8f",
+        "android_client_info": {
+          "package_name": "com.example.room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094333193374-2vgo7adfmna16sdp2iur9mo8mteakp6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJh3XS6HapcQGd-A1jU5vwMVNs_-8LLxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094333193374-2vgo7adfmna16sdp2iur9mo8mteakp6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
